@@ -47,3 +47,7 @@ In a ordred list of negetive numbers, numbers close to zero will be the largest 
                            Three numbers are -6, -2, 6
                            Result:  72
 
+
+### Note:
+
+Uncomment lines 30 to 41 print the elements whose products are the largest. By default the program will only print the product of these three numbers
