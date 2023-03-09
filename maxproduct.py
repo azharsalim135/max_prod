@@ -12,11 +12,11 @@ print(my_list)
 def maxProd(list):
     list.sort()         # Sorting the list
     if max(list) >= 0:  
-        # If the largest value in the list is equal to or greater than zero, then we have two possibilities.
-# 1) We can multiply the last three values in the list.
-# and
+        # If the largest value in the sorted list is equal to or greater than zero, then we have two possibilities for the solution.
+# 1) We can multiply the last three values in the sorted list.
+# and/or
 # 2) We can multiply the first two negative values and the last non-negative value.
-# In both cases, the result is positive or zero.
+# In both cases, the result is positive or zero. The follow code checks which amogst the two is larger
 
         if list[-1] * list[-2] * list[-3] > list[0] * list[1] * list[-1]: # Here we check which of the two possibilities has the larger number, and print those values
             print("Three numbers are %d , %d, %d " % (list[-1], list[-2], list[-3]))  
