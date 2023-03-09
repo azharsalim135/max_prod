@@ -32,3 +32,18 @@ Here we check both of these possilities and compare which value is largest and r
           LARGEST * SECOND_LARGEST * THIRD_LARGEST
 
 In a ordred list of negetive numbers, numbers close to zero will be the largest one.
+
+## Results
+
+                           [-1, -2, -6, -7, -3, -10]
+                           Three numbers are -1, -2, -3
+                           -6
+                           
+                           [-1, -2, -6, -7, -3, -10, 10]
+                           Three numbers are -10, -7, 10
+                           Result:  700
+                           
+                           [-1, -2, -6, 0, 1, 2, 6]
+                           Three numbers are -6, -2, 6
+                           Result:  72
+
